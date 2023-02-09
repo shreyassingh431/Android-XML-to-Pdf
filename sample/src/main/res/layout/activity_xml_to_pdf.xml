@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="1414.4px"
+    android:layout_height="1000px"
+    android:layout_margin="15dp"
+    android:background="@drawable/layout_border"
+    tools:context=".XmlToPdfActivity">
+
+
+    <View
+        android:id="@+id/left_divider_1"
+        android:layout_width="100dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="28dp"
+        android:background="#000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/left_txt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:text="Left Text one"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/left_divider_1" />
+
+    <View
+        android:id="@+id/left_divider_2"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="#000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/left_txt_1" />
+
+    <TextView
+        android:id="@+id/left_txt_2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:text="Left Text two"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/left_divider_2" />
+
+
+    <View
+        android:id="@+id/left_divider_3"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="#000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/left_txt_2" />
+
+    <TextView
+        android:id="@+id/left_txt_3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:text="Left Text three"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/left_divider_3" />
+
+
+    <View
+        android:id="@+id/left_divider_4"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="#000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/left_txt_3" />
+
+
+
+
+    <View
+        android:id="@+id/left_divider_8"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000"
+        app:layout_constraintBottom_toTopOf="@+id/left_txt_8"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/left_txt_8"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="8dp"
+        android:text="Left Text three"
+        app:layout_constraintBottom_toTopOf="@+id/left_divider_7"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <View
+        android:id="@+id/left_divider_7"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="24dp"
+        android:background="#000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/left_txt_5" />
+
+
+    <TextView
+        android:id="@+id/left_txt_5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="8dp"
+        android:text="Left Text three"
+        app:layout_constraintBottom_toTopOf="@+id/left_divider_5"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <View
+        android:id="@+id/left_divider_5"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="24dp"
+        android:background="#000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/left_txt_6" />
+
+
+    <TextView
+        android:id="@+id/left_txt_6"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="8dp"
+        android:text="Left Text three"
+        app:layout_constraintBottom_toTopOf="@+id/left_divider_9"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <View
+        android:id="@+id/left_divider_6"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="24dp"
+        android:background="#000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/left_divider_9" />
+
+    <View
+        android:id="@+id/left_divider_9"
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="24dp"
+        android:background="#000"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <View
+        android:id="@+id/left_divider_10"
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="24dp"
+        android:background="#000"
+       app:layout_constraintStart_toEndOf="@+id/left_divider_9"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <View
+        android:id="@+id/left_divider_11"
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="24dp"
+        android:background="#000"
+        app:layout_constraintStart_toEndOf="@+id/left_divider_10"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <View
+        android:id="@+id/left_divider_12"
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="24dp"
+        android:background="#000"
+        app:layout_constraintStart_toEndOf="@+id/left_divider_11"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/map_extent"
+        app:layout_constraintLeft_toRightOf="@+id/left_divider_12" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
